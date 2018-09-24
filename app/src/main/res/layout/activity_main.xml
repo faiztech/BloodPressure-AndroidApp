@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.example.pfgarofa.bloodpressure.MainActivity">
+
+    <EditText
+        android:id="@+id/systolic_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/systolic_hint"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/diastolic_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/diastolic_hint"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/diagnose_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/diagnose_button" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/category_heading"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/category_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        tools:text="Category text here" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginTop="5dp"
+        android:text="@string/follow_up_heading"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/recommendation"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        tools:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque at ipsum aliquam, sollicitudin sapien eget, auctor ligula. Aliquam porttitor, diam sit amet sollicitudin volutpat, velit lectus vehicula tortor, id sollicitudin nunc mauris in sapien. Mauris justo est, commodo in venenatis sed, finibus vel neque. Proin venenatis a velit ac mollis. Curabitur rutrum dignissim nibh, gravida vehicula dui malesuada nec. Proin feugiat risus lacus, eget interdum odio blandit vel. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi commodo lacus lacus, et dictum augue placerat vel. Aliquam quis dolor convallis ex porta interdum nec in massa." />
+</LinearLayout>

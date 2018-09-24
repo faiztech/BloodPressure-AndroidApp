@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BloodPressure</string>
+    <string name="systolic_hint">Enter the systolic reading, mm Hg.</string>
+    <string name="diastolic_hint">Enter diastolic reading, mm Hg</string>
+    <string name="diagnose_button">Diagnose</string>
+    <string name="category_heading">Blood Pressure Category</string>
+    <string name="follow_up_heading">Follow-up Recommendation</string>
+</resources>
